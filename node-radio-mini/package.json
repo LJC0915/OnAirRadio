@@ -1,0 +1,38 @@
+{
+  "name": "node-radio-mini",
+  "version": "0.0.4",
+  "description": "A terminal based radio streaming solution made entirely in Node.js",
+  "homepage": "https://github.com/DarkMannn/node-radio-mini",
+  "repository": "https://github.com/DarkMannn/node-radio-mini",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-radio-mini": "./app.js"
+  },
+  "dependencies": {
+    "@dropb/ffprobe": "^1.4.2",
+    "@hapi/hapi": "^17.x.x",
+    "@hapi/inert": "^5.2.2",
+    "dotenv": "^8.2.0",
+    "neo-blessed": "^0.2.0",
+    "throttle": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "radio",
+    "song",
+    "live",
+    "streaming",
+    "internet",
+    "cli",
+    "terminal"
+  ],
+  "author": "DarkMannn",
+  "license": "MIT"
+}
